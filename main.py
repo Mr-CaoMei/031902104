@@ -118,4 +118,4 @@ if __name__ == "__main__":
     f.write("Total:{}".format(count_all))
     f.close()
 time2 = time.time()
-print('总共耗时：' + str(time2 - time1) + 's')  # 统计程序运行处理时间
+print('总共耗时：' + str(time2 - time1) + 's')  # 统 计程序运行处理时间
