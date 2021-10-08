@@ -88,9 +88,9 @@ class DfaFilter:
                 str2 = ''.join(word_change)
                 str2 = search[str2]
                 count_all += 1
-                print("Line{}:<{}>".format(count, str2), ''.join(word_init), end="\n")
+                print("Line{}: <{}> ".format(count, str2), ''.join(word_init), end="\n")
                 f = open("self_ans.txt", 'a', encoding="utf-8")
-                f.write("Line{}:<{}>{}\n".format(count, str2, str1))
+                f.write("Line{}: <{}> {}\n".format(count, str2, str1))
                 f.close()
                 # print(''.join(word_change))
             start += 1
